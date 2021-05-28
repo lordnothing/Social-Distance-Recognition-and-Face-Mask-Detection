@@ -1,11 +1,12 @@
-# Social-Distance-Recognition-and-Face-Mask-Detection
+# Social Distance Recognition and Face Mask Detection
 
-Social distance monitoring and face mask detection system using a deep learning model has been implemented to tackle Covid19 situation. This has been achieved by using YOLO v3 object detection method which detects the persons in the video sequences and by using DBSCAN clustering method which estimates the distance between persons. To help the training process, augmented masked faces were generated using facial landmarks and blurring effects were also added. Any non-compliant pair has been indicated with a red bounded box and a red line between them. Safe pair has been indicated with a green bounded box around them. DFSD face detection method has been used to detect whether the persons were wearing a mask or not. Green bounded box around the face has been used if the mask was on the face and the red bounded box around the face has been used if the mask wasn’t on the face.
+Social distance monitoring and face mask detection system using a deep learning model has been implemented to tackle Covid19 situation. This has been achieved by using **YOLO v3 object detection method** which detects the persons in the video sequences and by using **DBSCAN clustering method** which estimates the distance between persons. To help the training process, augmented masked faces were generated using facial landmarks and blurring effects were also added. Any non-compliant pair has been indicated with a red bounded box and a red line between them. Safe pair has been indicated with a green bounded box around them. **DFSD face detection method** has been used to detect whether the persons were wearing a mask or not. Green bounded box around the face has been used if the mask was on the face and the red bounded box around the face has been used if the mask wasn’t on the face.
 
 
 ### Dataset and Weights
 
 Dataset and pretrained weights can be downloaded from the below link:
+
 https://drive.google.com/drive/folders/1jXfehvvXK6aEFDIR8fw1w6QPyDCJ3oAV?usp=sharing
 
 ## Tools Used
@@ -26,7 +27,7 @@ https://drive.google.com/drive/folders/1jXfehvvXK6aEFDIR8fw1w6QPyDCJ3oAV?usp=sha
 
 ## Future Work
 * Speed Optimization
-* Realtime monitoring in crowded places
+* Real-time monitoring in crowded places
 
 ## Results
 ![](Results/Sample_Result.gif)
